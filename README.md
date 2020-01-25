@@ -22,3 +22,13 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Firebase Login
+```
+firebase login
+```
+
+### Firebase Deploy
+```
+firebase deploy
+```
