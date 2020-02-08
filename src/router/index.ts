@@ -13,17 +13,17 @@ const routes = [
   {
     path: '/technologies',
     name: 'Technologies',
-    component: () => import(/* webpackChunkName: "Technologies" */ '../views/Technologies.vue')
+    component: () => import(/* webpackChunkName: "technologies" */ '../views/Technologies.vue')
   },
   {
     path: '/development',
     name: 'Development',
-    component: () => import(/* webpackChunkName: "Development" */ '../views/Development.vue')
+    component: () => import(/* webpackChunkName: "development" */ '../views/Development.vue')
   },
   {
     path: '/our-partners',
     name: 'Our Partners',
-    component: () => import(/* webpackChunkName: "Our Partners" */ '../views/Partners.vue')
+    component: () => import(/* webpackChunkName: "partners" */ '../views/Partners.vue')
   },
   {
     path: '/about-us',
